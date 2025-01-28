@@ -48,7 +48,7 @@ Post-img {
     justify-content: flex-start;
 }
 span.heart {
-    height: 80%;
+   height: 80%;
    width: 4%;
    align-self: center;
    font-size: 1.5em;
@@ -67,32 +67,23 @@ span.paper {
    width: 80%;
    align-self: center;
    font-size: 1.5em;
-   margin: 4px 4px 0px 8px;
+   margin: 4px 4px 0px 4px;
 }
 span.save {
-   
-   
     font-size: 1.5em;
     display:flex;
     justify-content: flex-end;
     margin-left: auto;
-
-
 }
 
 .body {
-    width: 100%;
-    
+    width: 100%;  
     padding: 5px;
-    font-size: 1em;
-    
+    font-size: 1em;  
     text-align: justify; 
-   
-    
-
 }
 span.punto {
-    margin-right: auto;
+    margin-right: 10px;
     align-self: right;
     font-size: 1.5em;
     display: grid;
@@ -108,15 +99,26 @@ span.text {
 .text{
     display: flex;
     flex-direction: column;
-
 }
 .icon{
     display: flex;
     margin-left: auto;
-
 }
 .post-icons{
     display: flex;
     align-items: center;
-
+}
+.fa-brands, .fab {
+    font-weight: 500;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.fa-solid fa-ellipsis-vertical::before {
+    display:flex;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    margin:0px 10px;
 }
